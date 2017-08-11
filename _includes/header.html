@@ -13,9 +13,9 @@
     <label class="hamburger-background" for="nav-check"></label>
     <nav class="site-nav">
         <a class="site-nav-link{% if page.url == '/' %} active{% endif %}" href="{{ '/' | prepend: site.baseurl }}">Start</a>
-        <a class="site-nav-link{% if page.url == '/related/' %} active{% endif %}" href="{{ '/related' | prepend: site.baseurl }}">Related</a>
         <a class="site-nav-link{% if page.url == '/development/' %} active{% endif %}" href="{{ '/development' | prepend: site.baseurl }}">Development</a>
         <a class="site-nav-link{% if page.url == '/faq/' %} active{% endif %}" href="{{ '/faq' | prepend: site.baseurl }}">FAQ</a>
+        <a class="site-nav-link{% if page.url == '/related/' %} active{% endif %}" href="{{ '/related' | prepend: site.baseurl }}">Related</a>		
         <a class="site-nav-link{% if page.url == '/contact/' %} active{% endif %}" href="{{ '/contact' | prepend: site.baseurl }}">Contact</a>
     </nav>
 </header>
