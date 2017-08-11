@@ -1,0 +1,18 @@
+---
+title: EMPHYSIS - Functional Mock-up Interface for Embedded Systems
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+email: martin.otter@dlr.de
+description: 'EMPHYSIS is a project to develop an enhancement of the FMI-standard
+
+'
+url: https://emphysis.github.io/web/
+twitter_username: jekyllrb
+github_username: jekyll
+markdown: kramdown

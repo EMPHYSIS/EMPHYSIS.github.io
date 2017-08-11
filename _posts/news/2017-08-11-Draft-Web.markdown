@@ -1,0 +1,9 @@
+---
+title: Draft Web.
+date: 2017-08-11 17:00:00 Z
+categories:
+- news
+---
+
+An initial draft version of the EMPHYSIS web site constructed.
+
