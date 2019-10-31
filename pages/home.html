@@ -1,0 +1,64 @@
+---
+title: Home
+permalink: /
+layout: default
+---
+
+<style>
+.lead {
+  padding-left: 15px;
+}
+
+.lead:before {
+  font-family: Georgia, serif;
+  display: block;
+  padding-left: 10px;
+  content: "\201C";
+  font-size: 80px;
+  position: absolute;
+  left: -20px;
+  top: -25px;
+  color: #7a7a7a;
+}
+</style>
+
+
+<div class="row">
+  <div class="col-lg-6">
+		<a href="https://itea3.org/project/emphysis.html">EMPHYSIS</a> (Embedded systems with physical models in the production code software)
+      is an ITEA3 research project that is running in 2017-2021.
+	   The major goal of the EMPHYSIS project is to develop a new standard (FMI for embedded systems) to exchange 
+	   physics-based models between modelling and simulation environments with software development environments
+		for electronic control units (ECU), micro controllers or other embedded systems
+      and provide prototype implementations for the whole tool chain from physics-based modeling environments
+      to production code on electronic control units. Enabling advanced control 
+		and diagnosis functions based on physical models allows the production code in automotive vehicles to be
+		enhanced and the cost and time for the software development of these embedded systems to be reduced. 
+      </p>
+  </div>
+  <div id="app" class="col-lg-6 news">
+
+    <h2 class="title title-highlighted">News</h2>
+
+    {% assign counter = 0 %}
+    {% for post in site.posts limit: 100 %}
+      {% if post.categories contains "news" %}
+    <div class="d-flex">
+      <div class="flex-shrink">
+        <span class="badge badge-light">{{ post.date | date: " %Y-%m-%d" }}</span>
+      </div>
+      <div>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </div>
+    </div>
+      {% assign counter=counter | plus:1 %}
+      {% endif %}
+      {% if counter >= 5 %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+    <a href="{{ "/news/" | relative_url }}" class="more-link">more...</a>
+
+  </div>
+</div>
+

@@ -1,3 +1,7 @@
 _site
 .sass-cache
-.idea
+.jekyll-metadata
+.bundle
+
+# PyCharm projects
+.idea/
