@@ -32,7 +32,7 @@ The EMPHYSIS project was partially funded by
     <td> <img src="https://emphysis.github.io/assets/images/bmbf_logo.jpg" alt="bmbf.jpg" title="bmbf.jpg" /> </td>
     <td> <a href="http://www.bmbf.de/en/index.php">BMBF</a> for 
          AbsInt GmbH, 
-         <a href="https://www.dlr.de/sr/en)">DLR-SR</a>, 
+         <a href="https://www.dlr.de/sr/en">DLR-SR</a>, 
          dSPACE GmbH, 
          EFS GmbH, 
          ESI ITI GmbH, 
@@ -60,10 +60,7 @@ The EMPHYSIS project was partially funded by
     <td> <a href="https://www.vlaio.be/nl">Agentschap Innoveren & Ondernemen</a> for Dana Belgium,
          Siemens Industry Software NV, University of Antwerp NEXOR</td>
   </tr>
-  
-  <tr>
-  <td> Without funding: MapleSoft</td>
-  </tr>
+ 
 </table>
 
 
