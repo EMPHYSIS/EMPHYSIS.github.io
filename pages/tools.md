@@ -12,11 +12,19 @@ the [eFMI specification 1.0.0-alpha.3](https://emphysis.github.io/pages/download
 
 Explanations:
 
+- _Lang to Beh. Model_: Generate Behavioral Model from modeling language.
+
+- _Lang to AlgCode_: Generate Algorithm Code from modeling language.
+
+- _Alg to ProdCode_: Generate Production C-Code from Algorithm Code.
+
+- _Prod to BindCode_: Generate Binary C-Code from Production Code.
+
 - _test ProdCode_:\\
   The Production C-Code is compiled, executed with inputs defined in the
   Behavioral Model and the result compared with the outputs defined in the Behavioral Model.
 
-- -verify ProdCode_:\\
+- _verify ProdCode_:\\
   Analysis of Production C-Code for run-time errors and (MISRA) rule violations.
   
 - In the right part of the figure some incomplete developments are listed that
@@ -25,3 +33,6 @@ Explanations:
   neutral form. It shall be a strict subset of the [flat Modelica definition](https://github.com/modelica/ModelicaSpecification/blob/MCP/0031/RationaleMCP/0031/ReadMe.md)
   under development from EMPHYSIS and Modelica Association partners.
 
+- _Lang to EquCode_: Generate Equation Code from modeling language.
+
+- _Equ to AlgCode_: Generate ALgorithm Code from Equation Code.
