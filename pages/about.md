@@ -8,8 +8,6 @@ layout: default
 
 The major goal of the ITEA project [EMPHYSIS](https://itea3.org/project/emphysis.html)  is to develop a new standard (eFMI: FMI for embedded systems) to exchange physics-based models between modelling and simulation environments with software development environments for electronic control units (ECU), micro controllers or other embedded systems. Enabling advanced control and diagnosis functions based on physical models allows the production code in automotive vehicles to be enhanced and the cost and time for the software development of these embedded systems to be reduced. 
 
-The main result of the EMPHYSIS project is an alpha release of the eFMI specification.
-
 
 | Facts               |                        |
 |:--------------------|:-----------------------|

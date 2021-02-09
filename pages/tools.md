@@ -6,7 +6,7 @@ toc: true
 ---
 
 The following 10 tools have been extended in the EMPHYSIS project to support
-the (eFMI specification 1.0.0-alpha.3)[https://emphysis.github.io/pages/downloads/efmi_specification_1.0.0-alpha.3.html] 
+the [eFMI specification 1.0.0-alpha.3](https://emphysis.github.io/pages/downloads/efmi_specification_1.0.0-alpha.3.html) 
 in form of **prototype** extensions:
 
 | Tool                 | Vendor                              | Supported eFMI Features                          |
