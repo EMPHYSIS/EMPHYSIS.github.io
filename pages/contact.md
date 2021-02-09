@@ -1,13 +1,17 @@
 ---
-title: Imprint
-permalink: /imprint/
+title: Contact
+permalink: /contact/
 layout: default
 ---
 
-# Imprint
+# Contact
 
 ```
-Prof. Dr.-Ing. Martin Otter
+Dr.-Ing. Oliver Lenord
+Robert Bosch GmbH
+Germany
+
+Martin Otter
 Deutsches Zentrum für Luft- und Raumfahrt e.V. (DLR)
 Institut für Systemdynamik und Regelungstechnik (DLR-SR)
 Forschungszentrum Oberpfaffenhofen

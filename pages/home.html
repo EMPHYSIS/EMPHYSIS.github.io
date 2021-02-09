@@ -22,21 +22,24 @@ layout: default
 }
 </style>
 
+<img src="{{ "/assets/images/emphysis-illustration.png" | relative_url }}" class="img-fluid" alt="Functional Mock-up Interface for Embedded Systems illustration">
+
 <div class="row">
   <div class="col-lg-6">
-    <h2>EMPHYSIS</h2>
-    <p>
-		<a href="https://itea3.org/project/emphysis.html">EMPHYSIS</a> (Embedded systems with physical models in the production code software)
-      is an ITEA3 research project that is running in 2017-2021.
-	   The major goal of the EMPHYSIS project is to develop a new standard (FMI for embedded systems) to exchange 
-	   physics-based models between modelling and simulation environments with software development environments
-		for electronic control units (ECU), micro controllers or other embedded systems
-      and provide prototype implementations for the whole tool chain from physics-based modeling environments
-      to production code on electronic control units. Enabling advanced control 
-		and diagnosis functions based on physical models allows the production code in automotive vehicles to be
-		enhanced and the cost and time for the software development of these embedded systems to be reduced. 
-      </p>
+    <h2>ITEA Project EMPHYSIS</h2>
+    
+	<a href="https://itea3.org/project/emphysis.html">EMPHYSIS</a> (Embedded systems with physical models in the production code software)
+    is an ITEA3 research project that is running in Sept. 2017 - Feb. 2021.
+	The major goal of the EMPHYSIS project is to develop a new standard (FMI for embedded systems) to exchange 
+	physics-based models between modelling and simulation environments with software development environments
+	for electronic control units (ECU), micro controllers or other embedded systems
+    and provide prototype implementations for the whole tool chain from physics-based modeling environments
+    to production code on electronic control units. Enabling advanced control 
+	and diagnosis functions based on physical models allows the production code in automotive vehicles to be
+	enhanced and the cost and time for the software development of these embedded systems to be reduced. 
+    </p>    
   </div>
+  
   <div id="app" class="col-lg-6 news">
 
     <h2 class="title title-highlighted">News</h2>
@@ -48,10 +51,13 @@ layout: default
       <div class="flex-shrink">
         <span class="badge badge-light">{{ post.date | date: " %Y-%m-%d" }}</span>
       </div>
+      
       <div>
         <a href="{{ post.url }}">{{ post.title }}</a>
       </div>
+      
     </div>
+    
       {% assign counter=counter | plus:1 %}
       {% endif %}
       {% if counter >= 5 %}

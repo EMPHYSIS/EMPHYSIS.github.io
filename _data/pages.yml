@@ -1,14 +1,17 @@
 - title: Home
   url: /
 
-- title: Related
-  url: /related/
+- title: Downloads
+  url: /downloads/
 
-- title: Development
-  url: /development/
+- title: Tools
+  url: /tools/
 
 - title: Literature
   url: /literature/
+
+- title: About
+  url: /about/
 
 - title: FAQ
   url: /faq/

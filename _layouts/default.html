@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>{% unless page.url == "/" %}{{ page.title }} | {% endunless %}EMPHYSIS project</title>
+  <title>{% unless page.url == "/" %}{{ page.title }} | {% endunless %}Functional Mock-up Interface</title>
 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
@@ -44,7 +44,7 @@
 
 <header>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top fmi-navbar">
-    <a class="navbar-brand" href="/" style="padding-bottom: 2px"><img src="/assets/images/EMPHYSIS-logo-smaller.png" alt="EMPHYSIS"></a>
+    <a class="navbar-brand" href="/" style="padding-bottom: 10px"><img src="/assets/images/fmi-logo-white.svg" width="40" height="32" alt="FMI"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -55,6 +55,17 @@
           <a class="nav-link" href="{{ item.url | relative_url }}" alt="{{ item.title }}">{{ item.title }}</a>
         </li>
         {% endfor %}
+        <li class="nav-item">
+          <a class="nav-link" href="https://fmu-check.herokuapp.com/" alt="FMU Check">FMU Check <span class="badge badge-secondary">beta</span></a>
+        </li>
+      </ul>
+      <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+        <li class="nav-item active">
+          <a class="nav-link" href="https://github.com/modelica/fmi-standard" aria-label="GitHub"><i class="fab fa-github fa-lg"></i></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="https://gitter.im/modelica/fmi-standard" aria-label="Gitter"><i class="fab fa-gitter fa-lg"></i></a>
+        </li>
       </ul>
     </div>
   </nav>
@@ -75,6 +86,9 @@
     <ul class="nav">
       <li class="nav-item">
         <a class="nav-link" href="{{ "/privacy/" | relative_url }}">Privacy</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="changePreferences" href="#">Cookie Preferences</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="{{ "/imprint/" | relative_url }}">Imprint</a>
