@@ -29,20 +29,40 @@ The EMPHYSIS project was partially funded by
 
 <table class="table table-borderless">
   <tr>
-    <td> <img src="https://svn.fmi-standard.org/fmi/branches/public/img/bmbf.png" alt="bmbf.png" title="bmbf.png" /> </td>
-    <td> <a href="http://www.bmbf.de/en/index.php">BMBF</a> for AbsInt GmbH, 
-         [DLR-SR](https://www.dlr.de/sr/en), dSPACE GmbH, EFS GmbH, ESI ITI GmbH, ETAS GmbH, PikeTec, Robert Bosch GmbH  (BMBF Förderkennzeichen: ???)
+    <td> <img src="https://emphysis.github.io/assets/images/bmbf_logo.jpg" alt="bmbf.jpg" title="bmbf.jpg" /> </td>
+    <td> <a href="http://www.bmbf.de/en/index.php">BMBF</a> for 
+         AbsInt GmbH, 
+         <a href="https://www.dlr.de/sr/en)">DLR-SR</a>, 
+         dSPACE GmbH, 
+         EFS GmbH, 
+         ESI ITI GmbH, 
+         ETAS GmbH, 
+         PikeTec, 
+         Robert Bosch GmbH  (BMBF Förderkennzeichen: 01IS17023A)
     </td>
   </tr>
+  
   <tr>
-    <td> <img src="https://svn.fmi-standard.org/fmi/branches/public/img/dgcis.png" alt="dgcis.png" title="dgcis.png" /></td>
-    <td> <a href="http://www.industrie.gouv.fr/portail/une/dgcis.html">DGCIS</a> for CEA, Dassault Systèmes, FH Electronics, Institut Polytechnique de Grenoble,
+    <td> <img src="https://emphysis.github.io/assets/images/Funding-Association-France.png" alt="Funding-Association-France.png" title="Funding-Association-France.png" /></td>
+    <td> <a href="https://www.economie.gouv.fr/">economie.gouv.fr</a> for CEA, Dassault Systèmes, FH Electronics, Institut Polytechnique de Grenoble,
          OSE Engineering, Renault SAS, Siemens Industry Software SAS, SOBEN</td>
   </tr>
+  
   <tr>
-    <td> <img src="https://svn.fmi-standard.org/fmi/branches/public/img/vinnova.png" alt="vinnova.png" title="vinnova.png" /></td>
-    <td> <a href="http://www.vinnova.se/en/">VINNOVA</a> for Autoliv Sverige AB, Dassault Systèmes AB, Linköping University
-         RISE, Volvo Personvagnar AB (funding number: xxx)</td>
+    <td> <img src="https://emphysis.github.io/assets/images/Vinnova_RGB_ram.png" alt="vinnova.png" title="vinnova.png" /></td>
+    <td> <a href="http://www.vinnova.se/en/">VINNOVA</a> for Autoliv Sverige AB, Dassault Systèmes AB, Linköping University,
+         Modelon, RISE, Volvo Personvagnar AB</td>
+  </tr>
+  
+    
+  <tr>
+    <td> <img src="https://emphysis.github.io/assets/images/FIE_Flanders_Funding_Logo.png" alt="FIE_Flanders_Funding" title="FIE_Flanders_Funding" /></td>
+    <td> <a href="https://www.vlaio.be/nl">Agentschap Innoveren & Ondernemen</a> for Dana Belgium,
+         Siemens Industry Software NV, University of Antwerp NEXOR</td>
+  </tr>
+  
+  <tr>
+  <td> Without funding: MapleSoft</td>
   </tr>
 </table>
 
