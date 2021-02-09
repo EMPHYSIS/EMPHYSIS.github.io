@@ -16,16 +16,16 @@ Explanations:
 
 - _Lang to AlgCode_: Generate Algorithm Code from modeling language.
 
-- _Alg to ProdCode_: Generate Production C-Code from Algorithm Code.
+- _Alg to ProdCode_: Generate Production Code from Algorithm Code.
 
-- _Prod to BindCode_: Generate Binary C-Code from Production Code.
+- _Prod to BinCode_: Generate Binary Code from Production Code.
 
 - _test ProdCode_:\\
-  The Production C-Code is compiled, executed with inputs defined in the
+  The Production Code is compiled, executed with inputs defined in the
   Behavioral Model and the result compared with the outputs defined in the Behavioral Model.
 
 - _verify ProdCode_:\\
-  Analysis of Production C-Code for run-time errors and (MISRA) rule violations.
+  Analysis of Production Code for run-time errors and (MISRA) rule violations.
   
 - In the right part of the figure some incomplete developments are listed that
   are planned to be continued after the EMPHYSIS project:
@@ -35,4 +35,4 @@ Explanations:
 
 - _Lang to EquCode_: Generate Equation Code from modeling language.
 
-- _Equ to AlgCode_: Generate ALgorithm Code from Equation Code.
+- _Equ to AlgCode_: Generate Algorithm Code from Equation Code.
