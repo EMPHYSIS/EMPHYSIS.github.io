@@ -17,7 +17,7 @@ Standardizing eFMI for embedded systems with physical models in the production c
  
 ### 2017 - 2021
 
-[42 journal and conference publications](https://emphysis.github.io/pages/EMPHYSIS_List-of-Publications.pdf) related to eFMI.
+[42 journal and conference publications](https://emphysis.github.io/literature/EMPHYSIS_List-of-Publications.pdf) related to eFMI.
 
 
  
