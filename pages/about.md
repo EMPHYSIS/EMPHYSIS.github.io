@@ -31,7 +31,7 @@ The EMPHYSIS project was partially funded by
   <tr>
     <td> <img src="https://emphysis.github.io/assets/images/bmbf_logo.jpg" alt="bmbf.jpg" title="bmbf.jpg" /> </td>
     <td> <a href="http://www.bmbf.de/en/index.php">BMBF</a> for 
-         AbsInt GmbH, 
+         <a href="https://www.absint.com/">AbsInt GmbH</a>, 
          <a href="https://www.dlr.de/sr/en">DLR-SR</a>, 
          dSPACE GmbH, 
          EFS GmbH, 
