@@ -22,7 +22,7 @@ Access and use of the eFMI standard will be free of charge.
 
 ## How is eFMI related to FMI?
 
-- eFMI will have different packaging format. The main packaging format will be an FMU for Co-Simulation
+- eFMI will have different packaging formats. The main packaging format will be an FMU for Co-Simulation
   where the eFMI definition is stored under directory _extras/org.efmi-standard_.
   This means that every tool supporting FMI for Co-Simulation should be able to simulate
   the eFMU.

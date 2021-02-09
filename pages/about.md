@@ -11,11 +11,11 @@ The major goal of the ITEA project [EMPHYSIS](https://itea3.org/project/emphysis
 The main result of the EMPHYSIS project is an alpha release of the eFMI specification.
 
 
-| Facts              | Description            |
-|:-------------------|:-----------------------|
-| Project duration   | Sept. 2017 - Feb. 2021 |
-| Person years       | 106                    |
-| Budget             | 13.7 Mill. €           |
+| Facts               |          |
+|:--------------------|:-----------------------|
+| Project duration:   | Sept. 2017 - Feb. 2021 |
+| Person years:       | 106                    |
+| Budget:             | 13.7 Mill. €           |
 
 
 
