@@ -12,7 +12,7 @@ the [eFMI specification 1.0.0-alpha.3](https://emphysis.github.io/pages/download
 
 Explanations:
 
-- _Lang to Beh. Model_: Generate Behavioral Model from modeling language.
+- _Lang to Beh. Model_: Generate Behavioral Model (= reference results) from modeling language.
 
 - _Lang to AlgCode_: Generate Algorithm Code from modeling language.
 
