@@ -22,10 +22,12 @@ Access and use of the eFMI standard will be free of charge.
 
 ## How is eFMI related to FMI?
 
-- eFMI will have different packaging formats. The main packaging format will be an FMU for Co-Simulation
-  where the eFMI definition is stored under directory _extras/org.efmi-standard_.
-  This means that every tool supporting FMI for Co-Simulation should be able to simulate
-  the eFMU.
+- eFMI has different packaging formats. The main packaging format is an _FMU for Co-Simulation_
+  where the eFMI definition is stored under directory _extra/org.efmi-standard_ and the FMU part is
+  a wrapper around the selected Production Code representation.  
+  This means that every FMI compliant [tool](https://fmi-standard.org/tools) supporting _FMI for Co-Simulation_ can simulate
+  the eFMU to perform Software-in-the-loop (SiL) testing.
+  Code generation for an embedded device requires however dedicated tool support for eFMI.
  
 - Technically, eFMI is using a few definitions from FMI 3.0, but otherwise can be seen as a complementary technology.
 

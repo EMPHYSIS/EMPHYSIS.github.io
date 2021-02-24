@@ -118,6 +118,6 @@ Link to [specification](https://www.asam.net/index.php?eID=dumpFile&t=f&f=991&to
 
 One of the topics of the Smart Systems Engineering project is to find solutions for
 the cross-disciplinary and cross-enterprise exchange of behavioral models.
-The Functional Mockup Interface (FMI) is viewed as the basic technology for the exchange.
+The Functional Mock-Up Interface (FMI) is viewed as the basic technology for the exchange.
 
 Link to [project page](http://www.prostep.org/en/projects/smart-systems-engineering.html).
