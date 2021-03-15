@@ -46,8 +46,11 @@ The respective test results are stored in <TT>TestResult</TT> folders of their r
 Note that the precision-related issues of 32 Bit compared to 64 Bit are still within the tolerance defined in the scenario description given in the Behavioral Model container's manifest.
 </p>
 <p>
-Also note how manifests link dependent containers for traceability. Production code manifests, for example, link back to the Algorithm Code container
+Note how manifests link dependent containers for traceability. Production code manifests, for example, link back to the Algorithm Code container
 they implement by means of <TT>ManifestReference</TT> and individual <TT>ForeignVariableReference</TT> for each block-variable of the original GALEC code.
+eFMU consistency between dependent artefacts is ensured by means of SHA-1 checksums.
+For example, the GALEC code of an Algorithm Code container is listed as <TT>File</TT> element with a mandatory checksum;
+likewise, the <TT>ManifestReference</TT> of a Production Code container's manifest lists the checksum of the respective Algorithm Code container manifest it implements.
 </p>
 <p>
 The <TT>schemas</TT> folder contains the XSD Schemas for all manifests as defined in the eFMI specification.
