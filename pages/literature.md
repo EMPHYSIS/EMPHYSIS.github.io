@@ -15,7 +15,7 @@ an introductory overview about the eFMI Standard.
  > "eFMI: An open standard for physical models in embedded software".<br>
  > In: _Proceedings of the 14th International Modelica Conference 2021_.<br>
  > Modelica Association, September 2021, pages 57-71.<br>
- > DOI: 10.3384/ecp2118157.<br>[Paper (pdf)](https://emphysis.github.io/pages/downloads/Modelica-Conference-2021-paper.pdf).
+ > DOI: 10.3384/ecp2118157.<br>[Paper (pdf)](https://emphysis.github.io/pages/downloads/Modelica-Conference-2021-paper.pdf). [Video with audio (mp4)](https://emphysis.github.io/pages/downloads/Modelica-Conference-2021-paper.mp4).
 
 ## [Jubilée Symposium 2019: Future Directions of System Modeling and Simulation](https://modelica.github.io/Symposium2019/program.html)
 
