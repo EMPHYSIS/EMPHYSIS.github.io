@@ -15,7 +15,7 @@ layout: default
    * [Link](https://www.mdpi.com/2076-0825/10/11/301)
 
  * Presentation at the [Jubilée Symposium 2019: Future Directions of System Modeling and Simulation](https://modelica.github.io/Symposium2019/program.html) giving an Outlook and overview of eFMI and the ITEA3 project EMPHYSIS:
-   * Title: _Standardizing eFMI for embedded systems with physical models in the production code software._
+   * Oliver Lenord.<br>"Standardizing eFMI for embedded systems with physical models in the production code software".<br>Modelica Association, 2019.
    * [Abstract](https://modelica.github.io/Symposium2019/abstracts/lenord.html), [Slides (pdf)](https://modelica.github.io/Symposium2019/slides/jubilee-symposium-2019-slides-lenord.pdf), [Video](https://youtu.be/SljwTeDRg2M)
 
 ## 2017 - 2021
