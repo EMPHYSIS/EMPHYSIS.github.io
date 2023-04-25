@@ -20,101 +20,99 @@ layout: default
   top: -25px;
   color: #7a7a7a;
 }
+
+.centerImage {
+  text-align:center;
+  display:block;
+}
+
+li + li {
+  margin-top: 10px;
+}
 </style>
 
-<img src="{{ "/assets/images/emphysis-illustration.png" | relative_url }}" class="img-fluid" alt="EMPHYSIS and eFMI illustration">
+<img src="{{ "/assets/images/emphysis-illustration.png" | relative_url }}" class="centerImage" alt="EMPHYSIS and eFMI illustration">
 
-	<p>
-	<b>IMPORTANT:</b> This website and <a href="https://github.com/EMPHYSIS/EMPHYSIS.github.io">its repository at GitHub</a> retired; it is replaced by the <a href="https://efmi-standard.org">new website</a> of the <i>Modelica Association Project Functional Mock-up Interface for embedded systems</i> (MAP eFMI).
-	</p>
-	
-	<p>
-	Please check the <a href="https://efmi-standard.org">MAP eFMI website https://efmi-standard.org</a> for any promotion material, the <i>eFMI Standard</i>, news and introductory documentation regarding the eFMI technology.
-	</p>
-	
-    <h2>About EMPHYSIS</h2>
-    
-	<p>
-	The <a href="https://itea3.org/project/emphysis.html">ITEA3 research project EMPHYSIS</a> (Embedded systems with physical models in the production code software) has been running from September 2017 until February 2021. It has been successfully reviewed and won the <a href="https://itea4.org/press-release/press-release-emphysis-the-missing-link-between-digital-simulation-and-embedded-software.html">ITEA Award of Excellence 2021</a>, honored with a Special Vice-chairman award title for being one of the highest scored ITEA projects to date (15 September 2021).
-	</p>
-	
-	<p>
-	The major goal of the project was to develop a new standard -- eFMI: Functional Mock-up Interface for embedded systems -- to exchange physics-based models between modeling and simulation environments with software development environments for electronic control units (ECU), micro controllers or other embedded systems and develop prototype implementations for the whole toolchain from physics-based modeling environments to production code on electronic control units. Enabling advanced control and diagnosis functions based on physics models allows the production code in automotive vehicles to be enhanced and the cost and time for the software development of embedded systems to be reduced.
-	</p>
-	
-    <h2>Research achievements</h2>
-    
-	<p>
-	EMPHYSIS won the <a href="https://itea4.org/press-release/press-release-emphysis-the-missing-link-between-digital-simulation-and-embedded-software.html">ITEA Award of Excellence 2021</a>, honored with a Special Vice-chairman award title for being one of the highest scored ITEA projects to date (15 September 2021).
-	</p>
+<p>
+<b>IMPORTANT:</b> This website and <a href="https://github.com/EMPHYSIS/EMPHYSIS.github.io">its repository at GitHub</a> retired; it is replaced by the <a href="https://efmi-standard.org">new website</a> of the <i>Modelica Association Project Functional Mock-up Interface for embedded systems</i> (MAP eFMI).
+</p>
 
-<img src="{{ "/assets/images/EMPHYSIS-ITEA-Award-of-Excellence.png" | relative_url }}" class="img-fluid" alt="EMPHYSIS and eFMI illustration">
+<p>
+Please check the <a href="https://efmi-standard.org">MAP eFMI website https://efmi-standard.org</a> for any promotion material, the <i>eFMI Standard</i>, news and introductory documentation regarding the eFMI technology.
+</p>
 
-	<p>
-	The major research results of the EMPHYSIS project are:
-	</p>
-    <ul> 
-        <li><a href="https://emphysis.github.io/pages/downloads/efmi_specification_1.0.0-alpha.4.zip"><i>eFMI Standard 1.0.0 Alpha 4</i> specification.</a></li>
-		
-		<li>11 industrial use cases and 22 Modelica example use-cases provided as <a href="https://github.com/modelica/efmi-testcases">open source library</a> with ~40 real time simulation configurations.</li>
-		
-		<li>13 tool prototypes supporting eFMI, including support in established physics modeling and embedded code generation and analysis tools like Simcenter Amesim (Siemens Digital Industries Software), Dymola (Dassault Systèmes), OPTIMICA Compiler Toolkit (Modelon AB), SimulationX (ESI Group), SCODE-CONGRA (ETAS GmbH), AUTOSAR Builder (Dassault Systèmes), TargetLink (dSPACE), Astrée (AbsInt GmbH), TPT (PikeTec GmbH) and CATIA ESP (Dassult Systèmes).</li>
-		
-        <li>Performance assessment with 6 benchmarks on a Bosch MDG1 Electronic Control Unit (ECU): On average, the best performing eFMI C codes are <b>25% faster</b> than state of the art hand-written C code.</li>
-		
-		<li><a href="https://emphysis.github.io/pages/downloads/emphysis-list-of-publications.pdf">42 journal and conference publications</a> related to eFMI.</li>
-		
-		<li>One <a href="https://doi.org/10.3384/ecp2118157">major overview paper</a> providing an introduction of the eFMI technology and summarizing the research results of EMPHYSIS and the <i>eFMI Standard</i>.</li>
-		
-		<li><a href="https://emphysis.github.io/pages/downloads/emphysis-public-demonstrator-summary.pdf">Public industrial demonstrator report</a>, summarizing the used tooling and tool interactions, the performance assessement conducted to compare eFMI with state of the art embedded software development, the testsuite and unit tests to validate eFMI tooling compatibility (crosschecks) and the varying actual industrial demonstrators and their challenges and eFMI-based solution.</li>
-		
-		<li><a href="https://emphysis.github.io/pages/downloads/emphysis-itea3-review-slides-excerpt.pdf">Public excerpt form the presentations given at the final ITEA3 EMPHYSIS review</a>. The slide set is comprehensive, going into the details of EMPHYSIS research results and the eFMI Standard, including motivation, developed tooling and performance assessement.</li>
-    </ul>
+<h2>About EMPHYSIS</h2>
+
+<p>
+The <a href="https://itea3.org/project/emphysis.html">ITEA3 research project EMPHYSIS</a> (Embedded systems with physical models in the production code software) has been running from September 2017 until February 2021. It has been successfully reviewed and won the <a href="https://itea4.org/press-release/press-release-emphysis-the-missing-link-between-digital-simulation-and-embedded-software.html">ITEA Award of Excellence 2021</a>, honored with a Special Vice-chairman award title for being one of the highest scored ITEA projects to date (15 September 2021).
+</p>
+
+<p>
+The major goal of the project was to develop a new standard -- eFMI: Functional Mock-up Interface for embedded systems -- to exchange physics-based models between modeling and simulation environments with software development environments for electronic control units (ECU), micro controllers or other embedded systems and develop prototype implementations for the whole toolchain from physics-based modeling environments to production code on electronic control units. Enabling advanced control and diagnosis functions based on physics models allows the production code in automotive vehicles to be enhanced and the cost and time for the software development of embedded systems to be reduced.
+</p>
+
+<h2>Research achievements</h2>
+
+<p>
+EMPHYSIS won the <a href="https://itea4.org/press-release/press-release-emphysis-the-missing-link-between-digital-simulation-and-embedded-software.html">ITEA Award of Excellence 2021</a>, honored with a Special Vice-chairman award title for being one of the highest scored ITEA projects to date (15 September 2021).
+</p>
+
+<img src="{{ "/assets/images/EMPHYSIS-ITEA-Award-of-Excellence.png" | relative_url }}" class="centerImage" alt="EMPHYSIS ITEA Award of Excellence 2021">
+
+<p>
+The major research results of the EMPHYSIS project are:
+</p>
+<ul>
+	<li><a href="https://emphysis.github.io/pages/downloads/efmi_specification_1.0.0-alpha.4.zip"><i>eFMI Standard 1.0.0 Alpha 4</i> specification.</a></li>
 	
-	<h2>Continuation as Modelica Association Project</h2>
+	<li>11 industrial use cases and 22 Modelica example use-cases provided as <a href="https://github.com/modelica/efmi-testcases">open source library</a> with ~40 real time simulation configurations.</li>
 	
-	<p>
-	The results of the EMPHYSIS project have been transferred to the in 2021 founded <a href="https://efmi-standard.org">Modelica Association Project Functional Mock-up Interface for embedded systems (MAP eFMI)</a> under the umbrella of the non-profit <a href="https://modelica.org/">Modelica Association</a>, to prepare them for open access standardization and publication and the organization of a volunteer community promoting and developing eFMI. Eleven of the original EMPHYSIS project partners immediately joined MAP eFMI, demonstrating their strong believe and commitment in the eFMI technology.
-	</p>
+	<li>13 tool prototypes supporting eFMI, including support in established physics modeling and embedded code generation and analysis tools like Simcenter Amesim (Siemens Digital Industries Software), Dymola (Dassault Systèmes), OPTIMICA Compiler Toolkit (Modelon AB), SimulationX (ESI Group), SCODE-CONGRA (ETAS GmbH), AUTOSAR Builder (Dassault Systèmes), TargetLink (dSPACE), Astrée (AbsInt GmbH), TPT (PikeTec GmbH) and CATIA ESP (Dassult Systèmes).</li>
 	
-	<p>
-	Besides the <i>eFMI Standard</i> itself, MAP eFMI releases accompanying promotion material and support tooling like an <i>eFMI Compliance Checker</i> and <i>eFMI Container Manager</i>, all developed as open source projects and distributed on the <a href="https://efmi-standard.org">MAP eFMI website</a> for free.
-	</p>
+	<li>Performance assessment with 6 benchmarks on a Bosch MDG1 Electronic Control Unit (ECU): On average, the best performing eFMI C codes are <b>25% faster</b> than state of the art hand-written C code.</li>
 	
-	<h2>Acknowledgments</h2>
+	<li><a href="https://emphysis.github.io/pages/downloads/emphysis-list-of-publications.pdf">42 journal and conference publications</a> related to eFMI.</li>
 	
-	The EMPHYSIS project run from September 2017 until February 2021, consisted of 26 partners from 5 countries, contributing 106 person years budgeted at 13.7 Million €. The project was partially funded by:
+	<li>One <a href="https://doi.org/10.3384/ecp2118157">major overview paper</a> providing an introduction of the eFMI technology and summarizing the research results of EMPHYSIS and the <i>eFMI Standard</i>.</li>
 	
-	<table class="table table-borderless">
-	  <tr>
-		<td> <img src="https://emphysis.github.io/assets/images/bmbf_logo.jpg" alt="bmbf.jpg" title="bmbf.jpg" /> </td>
-		<td> <a href="http://www.bmbf.de/en/index.php">BMBF</a> for 
-			 AbsInt GmbH, 
-			 DLR-SR, 
-			 dSPACE GmbH, 
-			 EFS GmbH, 
-			 ESI ITI GmbH, 
-			 ETAS GmbH, 
-			 PikeTec, 
-			 Robert Bosch GmbH  (BMBF Förderkennzeichen: 01IS17023A)
+	<li><a href="https://emphysis.github.io/pages/downloads/emphysis-public-demonstrator-summary.pdf">Public industrial demonstrator report</a>, summarizing the used tooling and tool interactions, the performance assessement conducted to compare eFMI with state of the art embedded software development, the testsuite and unit tests to validate eFMI tooling compatibility (crosschecks) and the varying actual industrial demonstrators and their challenges and eFMI-based solution.</li>
+	
+	<li><a href="https://emphysis.github.io/pages/downloads/emphysis-itea3-review-slides-excerpt.pdf">Public excerpt form the presentations given at the final ITEA3 EMPHYSIS review</a>. The slide set is comprehensive, going into the details of EMPHYSIS research results and the eFMI Standard, including motivation, developed tooling and performance assessement.</li>
+</ul>
+
+<h2>Continuation as Modelica Association Project</h2>
+
+<p>
+The results of the EMPHYSIS project have been transferred to the in 2021 founded <a href="https://efmi-standard.org">Modelica Association Project Functional Mock-up Interface for embedded systems (MAP eFMI)</a> under the umbrella of the non-profit <a href="https://modelica.org/">Modelica Association</a>, to prepare them for open access standardization and publication and the organization of a volunteer community promoting and developing eFMI. Eleven of the original EMPHYSIS project partners immediately joined MAP eFMI, demonstrating their strong believe and commitment in the eFMI technology.
+</p>
+
+<p>
+Besides the <i>eFMI Standard</i> itself, MAP eFMI releases accompanying promotion material and support tooling like an <i>eFMI Compliance Checker</i> and <i>eFMI Container Manager</i>, all developed as open source projects and distributed on the <a href="https://efmi-standard.org">MAP eFMI website</a> for free.
+</p>
+
+<h2>Acknowledgments</h2>
+
+The EMPHYSIS project run from September 2017 until February 2021, consisted of 26 partners from 5 countries, contributing 106 person years budgeted at 13.7 Million €. The project was partially funded by:
+
+<table class="table table-borderless">
+	<tr>
+		<td><img src="https://emphysis.github.io/assets/images/bmbf_logo.jpg" alt="bmbf.jpg" title="bmbf.jpg" /></td>
+		<td><a href="http://www.bmbf.de/en/index.php">BMBF</a> for AbsInt GmbH, DLR-SR, dSPACE GmbH, EFS GmbH, ESI ITI GmbH, ETAS GmbH, PikeTec, Robert Bosch GmbH (BMBF Förderkennzeichen: 01IS17023A)
 		</td>
-	  </tr>
-	  
-	  <tr>
-		<td> <img src="https://emphysis.github.io/assets/images/Funding-Association-France.png" alt="Funding-Association-France.png" title="Funding-Association-France.png" /></td>
-		<td> <a href="https://www.economie.gouv.fr/">economie.gouv.fr</a> for CEA, Dassault Systèmes, FH Electronics, Institut Polytechnique de Grenoble,
-			 OSE Engineering, Renault SAS, Siemens Industry Software SAS, SOBEN</td>
-	  </tr>
-	  
-	  <tr>
-		<td> <img src="https://emphysis.github.io/assets/images/Vinnova_RGB_ram.png" alt="vinnova.png" title="vinnova.png" /></td>
-		<td> <a href="http://www.vinnova.se/en/">VINNOVA</a> for Autoliv Sverige AB, Dassault Systèmes AB, Linköping University,
-			 Modelon, RISE, Volvo Personvagnar AB</td>
-	  </tr>
-	  
-	  <tr>
-		<td> <img src="https://emphysis.github.io/assets/images/FIE_Flanders_Funding_Logo.png" alt="FIE_Flanders_Funding" title="FIE_Flanders_Funding" /></td>
-		<td> <a href="https://www.vlaio.be/nl">Agentschap Innoveren & Ondernemen</a> for Dana Belgium,
-			 Siemens Industry Software NV, University of Antwerp NEXOR</td>
-	  </tr>
-	</table>
+	</tr>
+	
+	<tr>
+		<td><img src="https://emphysis.github.io/assets/images/Funding-Association-France.png" alt="Funding-Association-France.png" title="Funding-Association-France.png" /></td>
+		<td><a href="https://www.economie.gouv.fr/">economie.gouv.fr</a> for CEA, Dassault Systèmes, FH Electronics, Institut Polytechnique de Grenoble, OSE Engineering, Renault SAS, Siemens Industry Software SAS, SOBEN</td>
+	</tr>
+	
+	<tr>
+		<td><img src="https://emphysis.github.io/assets/images/Vinnova_RGB_ram.png" alt="vinnova.png" title="vinnova.png" /></td>
+		<td><a href="http://www.vinnova.se/en/">VINNOVA</a> for Autoliv Sverige AB, Dassault Systèmes AB, Linköping University, Modelon, RISE, Volvo Personvagnar AB</td>
+	</tr>
+	
+	<tr>
+		<td><img src="https://emphysis.github.io/assets/images/FIE_Flanders_Funding_Logo.png" alt="FIE_Flanders_Funding" title="FIE_Flanders_Funding" /></td>
+		<td> <a href="https://www.vlaio.be/nl">Agentschap Innoveren & Ondernemen</a> for Dana Belgium, Siemens Industry Software NV, University of Antwerp NEXOR</td>
+	</tr>
+</table>
