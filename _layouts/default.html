@@ -2,60 +2,25 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="ITEA3 EMPHYSIS research project">
-  <meta name="author" content="EMPHYSIS Consortium">
-
-  <title>{% unless page.url == "/" %}{{ page.title }} | {% endunless %}EMPHYSIS</title>
-
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-
-  <!-- Bootstrap core CSS -->
-  <link href="{{ "/assets/css/main.css" | relative_url }}" rel="stylesheet">
-  <link href="{{ "/assets/css/album.css" | relative_url }}" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="ITEA3 EMPHYSIS research project">
+	<meta name="author" content="EMPHYSIS Consortium">
+	
+	<title>EMPHYSIS</title>
+	
+	<!-- Bootstrap core CSS -->
+	<link href="{{ "/assets/css/main.css" | relative_url }}" rel="stylesheet">
+	<link href="{{ "/assets/css/album.css" | relative_url }}" rel="stylesheet">
 </head>
 
 <body>
 
-<header>
-	<nav class="navbar navbar-expand-md navbar-dark fixed-top efmi-navbar">
-		<a class="navbar-brand" href="/" style="padding-bottom: 10px"><img src="/assets/images/emphysis-logo.png" width="83" height="36" alt="EMPHYSIS"></a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav mr-auto">
-				{% for item in site.data.pages %}
-				<li class="nav-item {% if item.url == page.url %}active{% endif %}"><a class="nav-link" href="{{ item.url | relative_url }}" alt="{{ item.title }}">{{ item.title }}</a></li>
-				{% endfor %}
-			</ul>
-		</div>
-	</nav>
-</header>
-
 <main>
-  <div class="container my-5">
-  {{ content }}
-  </div>
+	<div class="container my-5">
+	{{ content }}
+	</div>
 </main>
-
-<footer class="footer">
-  <div class="container navbar justify-content-center">
-    <ul class="nav">
-      <li class="nav-item">
-        <a class="nav-link" href="{{ "/privacy/" | relative_url }}">Privacy</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="{{ "/imprint/" | relative_url }}">Imprint</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="{{ "/contact/" | relative_url }}">Contact</a>
-      </li>
-    </ul>
-  </div>
-</footer>
 
 </body>
 
